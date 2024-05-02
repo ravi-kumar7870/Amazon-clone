@@ -1,0 +1,311 @@
+* {
+     margin: 0;
+     font-family: arial;
+     border: border-box;
+
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(ravi1.jpg);
+    background-size: contain;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/** box2**/
+
+
+.add-first{
+    font: size 0.35rem;;
+    color: #cccccc;
+    margin: 5px;
+
+}
+
+.add-second{
+    color: white;
+    font-size: 1rem;
+    margin: 3px;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+/** style box 3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+
+}
+.search-input{
+   width: 100%;
+   border: none;
+   font-size: 1rem;
+
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(238, 178, 48);
+     border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid white ;
+}
+
+/** box 4**/
+span{
+    font-size: 0.7rem;
+
+}
+.nav-search{
+    font-size: 0.85rem;
+    font-weight:700;
+    
+}
+
+/** box 6**/
+.nav-card{
+    font-size: 25px;
+}
+
+/** panel...**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+.panel-options p{
+    display: inline;
+    margin-left: 15px;
+    
+    
+}
+.panel-options{
+    width: 90%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.80rem;
+    width: 700;
+    color: #26e6cc;
+}
+.hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 305px;
+    
+    
+}
+.hero-mess{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:0.85rem;
+    
+}
+.hero-mess a{
+    color: rgb(30, 112, 11);
+}
+
+/**  shop section  **/
+.shop-sec{
+    display: flex; /** collum ko row m convert krta h **/
+    flex-wrap:wrap;
+    justify-content: space-between; /** margin space aata h **/
+    background-color:#9fef71;
+    margin-top:0.50rem;
+     
+}
+
+
+.box{
+    height: 300px;
+     /**border: 2px solid black;**/
+    width: 16%;
+    background-color: #f1b15e;
+    margin: 0.30rem; /** all box margin sewt with the help of margin **/
+
+}
+.box-img{
+    height: 250px;
+    background-size: cover;
+}
+
+.box2-img{
+    height: 250px;
+   
+}
+.box3-img{
+   height: 250px;
+   background-size: cover;
+}
+.box4-img{
+    height: 250px;
+   background-size: cover;
+
+}
+.box5-img{
+    height: 250px;
+    
+}
+
+.box6-img
+{
+    height: 250px;
+}
+
+.box7-img
+{
+    height: 250px;
+}
+
+.box8-img
+{
+    height: 250px;
+}
+
+.box9-img
+{
+    height: 250px;
+}
+
+.box10-img
+{
+    height: 250px;
+}
+
+.box11-img
+{
+    height: 250px;
+    
+}
+
+.box12-img{
+    height: 250px;
+}
+footer{
+    margin-top: 20px;  /** margin top se liya gya h , acha lgne k liye **/
+
+}
+
+.foot-panel{
+    background-color:#37475a;
+    color: white;
+    height: 50px;
+    display: flex;  /** saari cheso ko center krne k liye **/
+    justify-content: center;
+    align-items: center; /** text bitch m aa jata h  , with the help of alin item.**/
+
+}
+.foot-panel1{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly; /** space ko cover kr deta h kon kaha rhna chahiye **/
+
+}
+
+ul{
+    margin-top: 20px; /** use to give margin in unorder list .**/
+}
+
+ul a{
+    display: block;  /** all are element in single line **/
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    border-top:0.5px solid white; /** but a boder from top section **/
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.logo{
+    background-image: url('nan.jpeg');
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+
+}
+
+.foot-panel3{
+    background-color: #0f1111;
+    color: white;
+    /**display: flex;
+    justify-content: center;**/
+    height: 60px;
+    padding-top: 25px;/** iski help se hm between m text la skte h kisi k box ko **/
+}
+
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.copyright{
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
